@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+       xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+            app:key="kiosk_title"
+            app:title="@string/preference_title"
+            app:summary="@string/preference_summary" />
+
+    <SwitchPreference
+            app:key="allowMultiWindowMode"
+            app:title="allowMultiWindowMode()"
+            app:summary="true to allow multi window mode, false to disallow multi window mode."
+            />
+
+   <!-- <SwitchPreference
+            app:key="allowTaskManager"
+            app:title="allowTaskManager()"
+            app:summary="true to allow task manager and recent applications, false to disallow task manager and recent applications."
+    />-->
+
+</androidx.preference.PreferenceScreen>
